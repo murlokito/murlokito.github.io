@@ -1,11 +1,6 @@
 @import
   url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 
-@font-face {
-  font-family: Dael Calligraphy;
-  src: url(/DAELC.TTF);
-}
-
 body,html {
   height: 100%;
   width: 100%;
