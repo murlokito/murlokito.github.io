@@ -1,8 +1,7 @@
 $(".landing").one( 'click', function(){
     			$(this).slideUp();
-    			lp.classList.add('fadeout');
-    			wrapper.classList.add('white');
-    			lp.classList.add('white');
-    			main.classList.add('mainFadein');
-    			murloc.classList.add('fadein');    
+    			document.getElementById('lp').classList.add('fadeout', 'white');
+    			document.getElementById('wrapper').classList.add('white');
+    			document.getElementById('main').classList.add('mainFadein');
+    			document.getElementById('murloc').classList.add('fadein');    
     		});
