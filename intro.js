@@ -1,4 +1,4 @@
-document.getElementById('lf').addEventListener( 'click', function(){
+$(".landing").one( 'click', function(){
     			$(this).slideUp();
     			lp.classList.add('fadeout');
     			wrapper.classList.add('white');
