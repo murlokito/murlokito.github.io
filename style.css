@@ -6,7 +6,7 @@ body,html {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  background-color: #CDD1C4;
+  background-color: #cccccc;
 }
 
 header {
@@ -50,7 +50,7 @@ header {
   position: absolute;
   visibility: hidden;
   left: 12.5%;
-  background: #CDD1C4;
+  background: #cccccc;
   opacity: 0;
   -webkit-transition: opacity 3s linear;
   -moz-transition: opacity 3s linear;
@@ -179,7 +179,7 @@ a:hover {
 }
 
 .white{
-  background-color: #CDD1C4;
+  background-color: #cccccc;
   overflow: visible;
   visibility: visible;
 }
