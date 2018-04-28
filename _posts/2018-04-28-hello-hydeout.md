@@ -1,7 +1,7 @@
---
+---
 layout: post
 title: This is my hydeout.
---
+---
 
 # This is my hydeout
 
