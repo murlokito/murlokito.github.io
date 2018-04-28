@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            murlokito's hiding place
+title:            murlokito's hydeout
 description:      'strive for progression, not perfection'
 
 
@@ -22,4 +22,5 @@ sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
-
+github:
+  repo: https://github.com/murlokito
