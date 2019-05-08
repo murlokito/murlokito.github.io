@@ -24,11 +24,9 @@ header {
 } 
 
 .main {
-  position: absolute;
-  visibility: hidden;
+  position: absolute; 
   left: 12.5%;
-  background: #cad2c5;
-  opacity: 0;
+  background: #cad2c5; 
   -webkit-transition: opacity 3s linear;
   -moz-transition: opacity 3s linear;
   -ms-transition: opacity 3s linear;
