@@ -21,30 +21,7 @@ header {
   min-width: 100%;
   margin: 0 auto;
   padding: 0;
-}
-
-.landing {
-  overflow: hidden;
-  font-family: georgia;
-  display: inline-block;
-  text-align: center;
-  font-size: 15px;
-  position: fixed;
-  color: #0a0a0a;
-  background-color: black;
-  margin-left: 37.5%;
-  margin-top: 25%;
-  width: 40%;
-  height: auto;
-  max-width: 25%;
-  min-height: 100%;
-  opacity: 1;
-  -webkit-transition: opacity 2s ease-in;
-  -moz-transition: opacity 2s ease-in;
-  -ms-transition: opacity 2s ease-in;
-  -o-transition: opacity 2s ease-in;
-  transition: opacity 2s ease-in;
-}
+} 
 
 .main {
   position: absolute;
