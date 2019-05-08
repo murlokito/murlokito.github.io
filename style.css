@@ -6,7 +6,7 @@ body,html {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #cad2c5;
 }
 
 header {
@@ -30,7 +30,7 @@ header {
   text-align: center;
   font-size: 15px;
   position: fixed;
-  color: #d4af4b;
+  color: #0a0a0a;
   background-color: black;
   margin-left: 37.5%;
   margin-top: 25%;
@@ -50,7 +50,7 @@ header {
   position: absolute;
   visibility: hidden;
   left: 12.5%;
-  background: #ffffff;
+  background: #cad2c5;
   opacity: 0;
   -webkit-transition: opacity 3s linear;
   -moz-transition: opacity 3s linear;
@@ -67,14 +67,14 @@ header {
 	font-family: Dael Calligraphy;
 	font-size: 5em;
   padding-bottom: 0;
-	color: #d4af4b;
+	color: #0a0a0a;
   opacity: 1;
   
 }
 
 p {
   font-family: 'Georgia', bold;
-	color: #d4af4b;
+	color: #0a0a0a;
 	font-size: 0.9em;
   -webkit-transition: font-size 2s ease-in;
   -moz-transition: font-size 2s ease-in;
@@ -86,7 +86,7 @@ p {
 p .footer {
 	font-family: 'Georgia', normal;
   display: inline;
-	color: #d4af4b;
+	color: #0a0a0a;
 	font-size: 0.7em;
 
 }
@@ -108,7 +108,7 @@ p .main{
 div .currently, .previously {
 	font-family: 'Georgia', bold;
   display: block;
-	color: #d4af4b;
+	color: #004e64;
   padding: 2%;
   border: 1px;
   border-style: solid;
@@ -141,11 +141,11 @@ a:visited {
   transition: 2s linear;
   transition: color 5s linear;
   white-space: nowrap;
-  color: #d4af4b;
+  color: #1b4965;
 }
 
 a:hover {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #cad2c5;
   font-size: 1.1em;
   color: rgb(212,175,75);
 }
@@ -179,7 +179,7 @@ a:hover {
 }
 
 .white{
-  background-color: #ffffff;
+  background-color: #cad2c5;
   overflow: visible;
   visibility: visible;
 }
