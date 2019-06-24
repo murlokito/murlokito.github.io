@@ -1,7 +1,6 @@
 ---
-layout: post
-title: "Home"
-author: "Hugo"
+layout: about
+title: "About"
 permalink: "/about/"
 ---
 
@@ -35,8 +34,4 @@ Volunteer Work, <a href="http://www.esn-covilha.org"> Erasmus Student Network Co
 
 <a href="https://www.twitter.com/murlokito"> Twitter </a>
 
-<a href="https://www.linkedin.com/in/hugo-carvalho-733160139/"> LinkedIn </a>
-
 <a href="https://www.github.com/murlokito"> GitHub </a>
-
-<a href="https://www.codepen.io/murlokito"> CodePen </a>
