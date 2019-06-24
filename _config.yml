@@ -1,26 +1,37 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
-
-# Setup
-title:            murlokito's hydeout
-description:      'strive for progression, not perfection'
+# Site settings
+title:          tale of us
+description:    "blabbery-blobber"
+url:            "https://murlokito.github.io"
 
 
-paginate:         5
-paginate_path:    '/blog/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
 
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
 plugins:
   - jekyll-feed
-  - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
-# Custom vars
-sidebar_home_link:  true
-sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+theme:      tale
+
+permalink:  /:year-:month-:day/:title
+paginate:   5
+
 github:
   repo: https://github.com/murlokito
